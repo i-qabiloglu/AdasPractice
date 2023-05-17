@@ -12,14 +12,12 @@ nav ul {
     display: flex;
 }
 
-nav li {
-    padding: 1.2rem 2.4rem;
-}
-
 nav a {
+    display: inline-block;
     color: #FFFFFF;
     font-size: 1.8rem;
     line-height: 2.7rem;
+    padding: 1.2rem 2.4rem;
 }
 
 nav li:first-child {
@@ -47,9 +45,7 @@ header {
 }
 
 header .content {
-    width: max-content;
-    margin: 0 auto;
-    padding: 12.8rem 16rem;
+    padding: 14.2rem 1.6rem;
     text-align: center;
 }
 
@@ -57,7 +53,8 @@ header .title {
     font-size: 6.4rem;
     line-height: 9.6rem;
     color: #FFFFFF;
-    margin: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
 }
 
 header .description {
@@ -70,19 +67,23 @@ header .description {
 }
 
 header .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
+
     margin: 0 auto;
-    height: 5.1rem;
     width: 15.135rem;
 }
 
 header .button a {
+    background-color: #000000;
+    padding: 1.2rem 2.4rem;
+    display: inline-block;
     color: #FFFFFF;
     font-size: 1.8rem;
     line-height: 2.7rem;
+}
+
+header .button a:hover {
+    color: #000000;
+    background-color: #CCCCCC;
 }
 
 section .container {
